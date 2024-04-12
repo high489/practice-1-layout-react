@@ -1,18 +1,13 @@
-import { useState } from 'react'
-import './index.scss'
+import './index.scss';
+
+import { Page1 } from 'pages';
 
 const App = () => {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-      </div>
+      <Page1 />
     </>
   )
 }
 
-export default App
+export default App;
