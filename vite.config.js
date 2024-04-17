@@ -5,6 +5,7 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react(),svgr()],
+  base: "/practice-1-layout-react/",
   resolve: {
     alias: {
       app: path.resolve(__dirname, './src/app'),
